@@ -1,0 +1,35 @@
+.row_card {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.cast {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.cast::-webkit-scrollbar {
+    display: none;
+}
+
+
+.img {
+
+    margin-right: 10px;
+    max-height: 150px;
+}
+
+
+.card_item{
+    cursor: pointer;
+}
+
+
+.card_item:hover {
+    transform: scale(1.1);
+}
+
+
